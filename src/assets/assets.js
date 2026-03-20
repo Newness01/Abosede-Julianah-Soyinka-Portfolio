@@ -43,38 +43,44 @@ export const skills = [
   {
     title: 'Frontend Development',
     icon: FaReact,
-    description: 'Building responsive and interactive user interfaces with modern frameworks.',
-    tags: ['React', 'Vue.js', 'Angular', 'TypeScript']
+    description: 'Building responsive and interactive user interfaces with React.js, Vue.js, and modern JavaScript (ES6+).',
+    tags: ['React', 'Vue.js', 'JavaScript', 'TypeScript', 'HTML', 'CSS']
   },
   {
-    title: 'Backend Development',
-    icon: FaServer,
-    description: 'Creating robust server-side applications and RESTful APIs.',
-    tags: ['Node.js', 'Express', 'Django', 'Laravel']
+    title: 'UI/UX Design',
+    icon: FaPaintBrush,
+    description: 'Designing visually appealing layouts and seamless user experiences with Figma and Tailwind CSS.',
+    tags: ['Figma', 'Tailwind CSS', 'CSS3', 'Responsive Design']
   },
   {
-    title: 'Database Management',
-    icon: FaDatabase,
-    description: 'Designing and optimizing databases for performance and scalability.',
-    tags: ['MongoDB', 'PostgreSQL', 'MySQL', 'Firebase']
+    title: 'State Management',
+    icon: FaCode,
+    description: 'Managing application state efficiently using Redux, Context API, and React Toolkit.',
+    tags: ['Redux', 'Context API', 'React Toolkit']
   },
   {
-    title: 'Mobile Development',
-    icon: FaMobileAlt,
-    description: 'Building cross-platform mobile applications with modern tools.',
-    tags: ['React Native', 'Flutter', 'Ionic', 'Swift']
-  },
-  {
-    title: 'Cloud & DevOps',
-    icon: FaCloud,
-    description: 'Deploying and managing applications in cloud environments.',
-    tags: ['AWS', 'Docker', 'Kubernetes', 'CI/CD']
-  },
-  {
-    title: 'Tools & Technologies',
+    title: 'Testing & Debugging',
     icon: FaTools,
-    description: 'Essential tools and technologies I use in my development workflow.',
-    tags: ['Git & GitHub', 'Webpack', 'Figma', 'Jest']
+    description: 'Ensuring code quality with Jest and browser developer tools.',
+    tags: ['Jest', 'Testing Library', 'DevTools']
+  },
+  {
+    title: 'Version Control',
+    icon: FaTools,
+    description: 'Collaborating and managing code with Git & GitHub.',
+    tags: ['Git', 'GitHub']
+  },
+  {
+    title: 'Performance Optimization',
+    icon: FaLightbulb,
+    description: 'Enhancing speed and accessibility for web applications.',
+    tags: ['Performance', 'Accessibility', 'SEO']
+  },
+  {
+    title: 'Build Tools',
+    icon: FaTools,
+    description: 'Streamlining development with Webpack and Vite.',
+    tags: ['Webpack', 'Vite']
   }
 ];
 
@@ -83,55 +89,55 @@ export const skills = [
 export const projects = [
   {
     title: "Cryptocurrency Dashboard",
-    description: "A cryptocurrency dashboard built with React and Vite. It fetches real-time data from the CoinGecko API, allowing users to view market trends, coin details, and perform calculations. The app features interactive charts, responsive UI, and modern development tools for code quality and performance.",
+    description: "Built an interactive dashboard with React to track real-time crypto prices, visualize trends, and provide users with insightful analytics through dynamic charts and a responsive UI.",
     image: projectImg1,
     tech: ["React", "React Router", "Recharts", "Fetch API"],
-    icons: [FaReact, FaNodeJs, FaDatabase , FaStripe],
+    icons: [FaReact, FaLightbulb, FaCode],
     demo: "#",
     code: "#",
   },
   {
     title: "Real Estate Website",
-    description: "A modern, responsive real estate website built with React and Vite. The project features a clean UI styled with TailwindCSS, animated transitions using Framer Motion, and interactive toast notifications via React Toastify. Users can browse completed projects, view testimonials, and contact the company through a functional form integrated with Web3Forms API. The site is fully responsive, utilizes component-based architecture, and demonstrates best practices in frontend development, asset management, and API integration.",
+    description: "Developed a modern, mobile-friendly real estate platform featuring smooth UI animations, property listings, testimonials, and a contact form, all styled with Tailwind CSS and React.",
     image: projectImg2,
     tech: ["React", "TailwindCSS", "Framer Motion", "React Toastify", "API Integration"],
-    icons: [FaVuejs, FaFire, FaCloud , FaDatabase],
+    icons: [FaReact, FaPaintBrush, FaCloud],
     demo: "#",
     code: "#",
   },
   {
     title: "Todo App",
-    description: "This project is a Todo List application built with React and Redux, allowing users to add, view, and manage tasks efficiently. It features a modern UI, state management with Redux, and uses Vite for fast development and build processes. The app demonstrates best practices in component-based architecture and state handling for scalable web applications.",
+    description: "Created a task management app using React and Redux, enabling users to efficiently add, view, and organize tasks with a clean interface and robust state management.",
     image: projectImg3,
     tech: ["React", "React Redux", "React Toolkit", "CSS"],
-    icons: [FaReact, FaDatabase],
+    icons: [FaReact, FaCode],
     demo: "#",
     code: "#",
   },
   {
     title: "Portfolio Website",
-    description: "A personal portfolio to showcase projects, skills, and blogs with dark/light mode support.",
+    description: "Designed and built a personal portfolio to showcase projects, skills, and blogs, with support for dark/light mode and a focus on clean, accessible design.",
     image: projectImg4,
     tech: ["HTML", "CSS", "JavaScript", "API Integration"],
-    icons: [FaReact, FaCloud],
+    icons: [FaPaintBrush, FaReact],
     demo: "#",
     code: "#",
   },
   {
     title: "Chat App",
-    description: "A real-time chat application with group messaging, emojis, and file sharing.",
+    description: "Engineered a real-time chat application with React, supporting group messaging, emojis, and file sharing, delivering a seamless and interactive user experience.",
     image: projectImg5,
     tech: ["Socket.IO", "React", "Node.js", "MongoDB"],
-    icons: [FaReact, FaNodeJs, FaDatabase ],
+    icons: [FaReact, FaLightbulb],
     demo: "#",
     code: "#",
   },
   {
     title: "AI Image Generator",
-    description: "Generate images using AI prompts powered by OpenAI's DALL·E model and Cloudinary.",
+    description: "Implemented an AI-powered tool that generates images from user prompts using DALL·E and Cloudinary, with a modern React interface and Tailwind CSS styling.",
     image: projectImg6,
     tech: ["React", "OpenAI API", "Cloudinary", "Tailwind CSS"],
-    icons: [FaRobot, FaReact, FaCloud],
+    icons: [FaReact, FaRobot],
     demo: "#",
     code: "#",
   }
