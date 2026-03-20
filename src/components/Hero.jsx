@@ -32,7 +32,7 @@ items-center justify-between ">
     rounded-lg font-medium hover:bg-purple-700 transition
     duration-300'
     >View Work</a>
-    <a href="#contacts" className='px-6 py-3 border border-purple 
+    <a href="#contact" className='px-6 py-3 border border-purple 
     rounded-lg font-medium hover:bg-purple/20 transition
     decoration-purple-300'>Contact Me</a>
 
