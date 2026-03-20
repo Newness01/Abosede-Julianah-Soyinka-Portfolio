@@ -140,27 +140,27 @@ export const projects = [
 
 export const workData = [
   {
-    role: "Senior Frontend Developer",
-    company: "TechCorp Inc.",
-    duration: "2020 - Present",
+    role: "Frontend Developer",
+    company: "Freelancer.",
+    duration: " July 2025 - Present",
     description:
-      "Leading frontend development for enterprise clients, implementing modern frameworks, and mentoring junior developers.",
+      "Build responsive web apps with React.js, Tailwind CSS, HTML, and JavaScript. Collaborate with teams to deliver optimized, accessible solutions, including a finance tracker, real estate website, and portfolio.",
     color: "purple"
   },
   {
-    role: "Web Developer",
-    company: "Digital Solutions LLC",
-    duration: "2018 - 2020",
+    role: "Frontend Developer Intern",
+    company: "Brandville Technologies",
+    duration: "January 2026 - March 2026",
     description:
       "Developed and maintained web applications for various clients, focusing on responsive design and performance optimization.",
     color: "pink"
   },
   {
-    role: "Junior Developer",
-    company: "StartUp Ventures",
-    duration: "2016 - 2018",
+    role: "Product Manager Intern",
+    company: "Decode Analytical",
+    duration: "April 2024 - December 2024",
     description:
-      "Started my career building basic websites and gradually took on more complex projects as I expanded my skill set.",
+      "Drove user research, design, and product planning. Launched a course platform (+20% engagement) and improved team efficiency by 15%.",
     color: "blue"
   }
 ];
