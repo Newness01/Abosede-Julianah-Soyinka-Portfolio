@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import { FaDribbble, FaEnvelope, FaGithub, FaLinkedin, FaMapMarkerAlt, FaPhone } from 'react-icons/fa'
+import { FaDribbble, FaEnvelope, FaGithub, FaInstagram, FaLinkedin, FaMapMarkerAlt, FaPhone } from 'react-icons/fa'
 import { LiaLinkedin } from 'react-icons/lia'
 import { FaX } from 'react-icons/fa6'
 
@@ -99,28 +99,35 @@ Send Message
 <div className='pt-4'>
 <h3 className='text-lg font-semibold mb-4'>Follow Me</h3>
 <div className='flex space-x-4 '>
-<a href="#" className='w-12 h-12 rounded-full
+<a href="https://github.com/Newness01" className='w-12 h-12 rounded-full
 bg-dark-300 flex items-center justify-center
 text-purple hover:bg-purple hover:text-white
 transition duration-300'>
     <FaGithub/>
 </a>
 
-<a href="#" className='w-12 h-12 rounded-full
+<a href="https://www.linkedin.com/in/abosede-soyinka-7823a3358" className='w-12 h-12 rounded-full
 bg-dark-300 flex items-center justify-center
 text-orange-400 hover:bg-orange-400 hover:text-white
 transition duration-300'>
     <FaLinkedin/>
 </a>
 
-<a href="#" className='w-12 h-12 rounded-full
+<a href="https://x.com/newness_isAstar" className='w-12 h-12 rounded-full
 bg-dark-300 flex items-center justify-center
 text-blue hover:bg-blue hover:text-white
 transition duration-300'>
     <FaX/>
 </a>
 
-<a href="#" className='w-12 h-12 rounded-full
+<a href="https://www.instagram.com/newness_is_a_star/" className='w-12 h-12 rounded-full
+bg-dark-300 flex items-center justify-center
+text-yellow-500 hover:bg-red-600 hover:text-white
+transition duration-300'>
+    <FaInstagram/>
+</a>
+
+<a href="https://linktr.ee/newness_is_a_star" className='w-12 h-12 rounded-full
 bg-dark-300 flex items-center justify-center
 text-pink hover:bg-pink hover:text-white
 transition duration-300'>
