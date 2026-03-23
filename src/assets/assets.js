@@ -2,12 +2,15 @@ import { FaLightbulb, FaPaintBrush, FaCode, FaReact, FaServer, FaMobileAlt, FaTo
 
 import profileImg from '../assets/profile.avif';
 import projectImg1 from '../assets/project1.avif';
-import projectImg2 from '../assets/realestate.jpeg';
-import projectImg3 from '../assets/todoapp.png';
-import projectImg4 from '../assets/portfolio.png';
+import projectImg2 from '../assets/project2.avif';
+import projectImg3 from '../assets/project3.avif';
+import projectImg4 from '../assets/project4.avif';
 import projectImg5 from '../assets/project5.avif';
 import projectImg6 from '../assets/project6.avif';
 import myimage1 from '../assets/myimage1.jpeg';
+import realEstate from '../assets/realestate.jpg';
+import toDo from '../assets/todoapp.png';
+import portfolio from '../assets/portfolio.jpg'
 
 
 
@@ -99,7 +102,7 @@ export const projects = [
   {
     title: "Real Estate Website",
     description: "Developed a modern, mobile-friendly real estate platform featuring smooth UI animations, property listings, testimonials, and a contact form, all styled with Tailwind CSS and React.",
-    image: projectImg2,
+    image: realEstate,
     tech: ["React", "TailwindCSS", "Framer Motion", "React Toastify", "API Integration"],
     icons: [FaReact, FaPaintBrush, FaCloud],
     demo: "#",
@@ -108,7 +111,7 @@ export const projects = [
   {
     title: "Todo App",
     description: "Created a task management app using React and Redux, enabling users to efficiently add, view, and organize tasks with a clean interface and robust state management.",
-    image: projectImg3,
+    image: toDo,
     tech: ["React", "React Redux", "React Toolkit", "CSS"],
     icons: [FaReact, FaCode],
     demo: "#",
@@ -117,7 +120,7 @@ export const projects = [
   {
     title: "Portfolio Website",
     description: "Designed and built a personal portfolio to showcase projects, skills, and blogs, with support for dark/light mode and a focus on clean, accessible design.",
-    image: projectImg4,
+    image: portfolio,
     tech: ["HTML", "CSS", "JavaScript", "API Integration"],
     icons: [FaPaintBrush, FaReact],
     demo: "#",
