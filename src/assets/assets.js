@@ -1,12 +1,6 @@
-import { FaLightbulb, FaPaintBrush, FaCode, FaReact, FaServer, FaMobileAlt, FaTools, FaNodeJs, FaStripe, FaVuejs, FaFire, FaDatabase, FaCloud, FaRobot } from 'react-icons/fa';
+import { FaLightbulb, FaPaintBrush, FaCode, FaReact, FaTools, FaCloud, FaChartPie, FaChartLine, FaUserTie, FaBriefcase, FaTasks, FaShoppingBag, FaStore, FaCreditCard } from 'react-icons/fa';
 
-import profileImg from '../assets/profile.avif';
 import projectImg1 from '../assets/project1.avif';
-import projectImg2 from '../assets/project2.avif';
-import projectImg3 from '../assets/project3.avif';
-import projectImg4 from '../assets/project4.avif';
-import projectImg5 from '../assets/project5.avif';
-import projectImg6 from '../assets/project6.avif';
 import myimage1 from '../assets/myimage1.jpeg';
 import realEstate from '../assets/realestate.jpg';
 import toDo from '../assets/todoapp.png';
@@ -98,8 +92,8 @@ export const projects = [
     image: projectImg1,
     tech: ["React", "React Router", "Recharts", "Fetch API"],
     icons: [FaReact, FaLightbulb, FaCode],
-    demo: "#",
-    code: "#",
+    demo: "https://github.com/Newness01/Modern-Crypto-Website",
+    code: "https://modern-crypto-website.vercel.app/",
   },
   {
     title: "Real Estate Website",
@@ -107,44 +101,44 @@ export const projects = [
     image: realEstate,
     tech: ["React", "TailwindCSS", "Framer Motion", "React Toastify", "API Integration"],
     icons: [FaReact, FaPaintBrush, FaCloud],
-    demo: "#",
-    code: "#",
+    demo: "https://real-estate-website-hazel.vercel.app/",
+    code: "https://github.com/Newness01/Real-Estate-Website",
   },
   {
     title: "Todo App",
     description: "Created a task management app using React and Redux, enabling users to efficiently add, view, and organize tasks with a clean interface and robust state management.",
     image: toDo,
     tech: ["React", "React Redux", "React Toolkit", "CSS"],
-    icons: [FaReact, FaCode],
-    demo: "#",
-    code: "#",
+    icons: [FaReact, FaCode, FaTasks],
+    demo: "https://todolist-with-redux-three.vercel.app/",
+    code: "https://github.com/Newness01/TODOLIST_WITH_REDUX",
   },
   {
     title: "Portfolio Website",
     description: "Designed and built a personal portfolio to showcase projects, skills, and blogs, with support for dark/light mode and a focus on clean, accessible design.",
     image: portfolio,
     tech: ["HTML", "CSS", "JavaScript", "API Integration"],
-    icons: [FaPaintBrush, FaReact],
-    demo: "#",
-    code: "#",
+    icons: [ FaReact, FaBriefcase, FaUserTie],
+    demo: "https://abosede-julianah-soyinka-portfolio.vercel.app/",
+    code: "https://github.com/Newness01/Abosede-Julianah-Soyinka-Portfolio",
   },
   {
   title: "Personal Finance Tracker",
   description: "Built a personal finance tracking application that allows users to manage income and expenses, categorize transactions, and visualize spending patterns through a clean and responsive UI.",
   image: financetracker,
   tech: ["React", "React Hooks", "Local Storage", "Tailwind CSS"],
-  icons: [FaReact],
-  demo: "#",
-  code: "#",
+  icons: [FaReact, FaChartPie, FaChartLine],
+  demo: "https://personal-finance-tracker-one-nu.vercel.app/",
+  code: "https://github.com/Newness01/Personal-Finance-Tracker",
 },
   {
   title: "Product List With Cart",
   description: "Developed an e-commerce product listing interface with cart functionality, allowing users to add, remove, and manage items dynamically with a responsive and user-friendly design.",
   image: ecommerce,
   tech: ["React", "JavaScript", "HTML", "CSS"],
-  icons: [],
-  demo: "#",
-  code: "#",
+  icons: [FaShoppingBag, FaStore, FaCreditCard],
+  demo: "https://product-list-with-add-to-cart.vercel.app/",
+  code: "https://github.com/Newness01/Product-List-With-AddTo-Cart",
 }
 ];
 
