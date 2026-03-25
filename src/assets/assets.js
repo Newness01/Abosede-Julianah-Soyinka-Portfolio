@@ -11,6 +11,8 @@ import myimage1 from '../assets/myimage1.jpeg';
 import realEstate from '../assets/realestate.jpg';
 import toDo from '../assets/todoapp.png';
 import portfolio from '../assets/portfolio.jpg'
+import ecommerce from '../assets/ecommerce.PNG'
+import financetracker from '../assets/financetracker.PNG'
 
 
 
@@ -127,23 +129,23 @@ export const projects = [
     code: "#",
   },
   {
-    title: "Chat App",
-    description: "Engineered a real-time chat application with React, supporting group messaging, emojis, and file sharing, delivering a seamless and interactive user experience.",
-    image: projectImg5,
-    tech: ["Socket.IO", "React", "Node.js", "MongoDB"],
-    icons: [FaReact, FaLightbulb],
-    demo: "#",
-    code: "#",
-  },
+  title: "Personal Finance Tracker",
+  description: "Built a personal finance tracking application that allows users to manage income and expenses, categorize transactions, and visualize spending patterns through a clean and responsive UI.",
+  image: financetracker,
+  tech: ["React", "Context API", "React Hooks", "Local Storage", "Tailwind CSS"],
+  icons: [FaReact, FaChartPie],
+  demo: "#",
+  code: "#",
+},
   {
-    title: "AI Image Generator",
-    description: "Implemented an AI-powered tool that generates images from user prompts using DALL·E and Cloudinary, with a modern React interface and Tailwind CSS styling.",
-    image: projectImg6,
-    tech: ["React", "OpenAI API", "Cloudinary", "Tailwind CSS"],
-    icons: [FaReact, FaRobot],
-    demo: "#",
-    code: "#",
-  }
+  title: "Product List With Cart",
+  description: "Developed an e-commerce product listing interface with cart functionality, allowing users to add, remove, and manage items dynamically with a responsive and user-friendly design.",
+  image: ecommerce,
+  tech: ["React", "JavaScript", "HTML", "CSS"],
+  icons: [FaShoppingCart, FaReact],
+  demo: "#",
+  code: "#",
+}
 ];
 
 
