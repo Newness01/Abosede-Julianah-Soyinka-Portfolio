@@ -117,8 +117,8 @@ duration-300 hover:text-purple group
 </a>
 
 
-<a  href="#projects" className='relative text-white/80 transition 
-duronClick={()=>setShowMenu(!showMenu)}ation-300 hover:text-purple group
+<a onClick={()=>setShowMenu(!showMenu)} href="#projects" className='relative text-white/80 transition 
+duration-300 hover:text-purple group
 '>
     <span>Projects</span>
 </a>
