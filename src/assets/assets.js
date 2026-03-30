@@ -119,8 +119,8 @@ export const projects = [
     image: portfolio,
     tech: ["HTML", "CSS", "JavaScript", "API Integration"],
     icons: [ FaReact, FaBriefcase, FaUserTie],
-    demo: "https://abosede-julianah-soyinka-portfolio.vercel.app/",
-    code: "https://github.com/Newness01/Abosede-Julianah-Soyinka-Portfolio",
+    demo: "https://michael-owoeye-portfolio.vercel.app/",
+    code: "https://github.com/Newness01/Michael-Owoeye-Portfolio",
   },
   {
   title: "Personal Finance Tracker",
