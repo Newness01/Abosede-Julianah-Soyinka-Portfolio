@@ -98,6 +98,7 @@ className='text-2xl cursor-pointer'/>
     showMenu && (
 <div className='md:hidden mt-4 dark:bg-gray-900 h-screen rounded-lg
 p-4 flex flex-col space-y-4 text-center justify-center'>
+    
  <a onClick={()=>setShowMenu(!showMenu)} href="#home" className='relative text-white/80 transition 
 duration-300 hover:text-purple group
 '>
